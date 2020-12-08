@@ -4,18 +4,29 @@ using UnityEngine;
 
 public class DestroyerScript : MonoBehaviour
 {
+    //TODO tirar toda essa lógica do gameOverCanvas e morte do jogador daqui
 
-    void OnTriggerEnter(Collider outro)
+    [SerializeField] private Canvas _gameOverCanvas;
+
+    void Awake()
     {
-        if (outro.gameObject.tag == "Player")
-        {
-            Debug.Break();
-            return;
-        }
+        _gameOverCanvas.gameObject.SetActive(false);
+    }
 
-        if (outro.gameObject.transform.parent)
-            Destroy(outro.gameObject.transform.parent.gameObject);
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.gameObject.tag != "Player")
+        {
+            if (other.gameObject.transform.parent)
+                Destroy(other.gameObject.transform.parent.gameObject);
+            else
+                Destroy(other.gameObject);
+        }
         else
-            Destroy(outro.gameObject);
+        {
+            Time.timeScale = 0;
+            _gameOverCanvas.gameObject.SetActive(true);
+        }
     }
 }
