@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7895545727683557252}
+  - component: {fileID: 2414018144549445339}
   m_Layer: 0
   m_Name: floor9x1
   m_TagString: Untagged
@@ -36,55 +37,23 @@ Transform:
   - {fileID: 7105402436549183995}
   - {fileID: 2604447244326286073}
   - {fileID: 5912029244026331385}
-  - {fileID: 4998300159652188657}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 10, z: 0}
---- !u!1 &5183326258475962490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4998300159652188657}
-  - component: {fileID: 7600173847287368013}
-  m_Layer: 0
-  m_Name: collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4998300159652188657
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5183326258475962490}
-  m_LocalRotation: {x: -0, y: 0.043619413, z: -0, w: 0.99904835}
-  m_LocalPosition: {x: 4.7080946, y: 2.0764327, z: -0.36954504}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7895545727683557252}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &7600173847287368013
+--- !u!61 &2414018144549445339
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5183326258475962490}
+  m_GameObject: {fileID: 3114275967257665721}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.743411, y: -1.9420643}
+  m_Offset: {x: 0.85, y: -0.21}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -95,7 +64,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.418646, y: 0.572556}
+  m_Size: {x: 8.418646, y: 0.75}
   m_EdgeRadius: 0
 --- !u!1001 &2230315511545718720
 PrefabInstance:
