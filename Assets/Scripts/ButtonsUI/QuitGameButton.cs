@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class QuitGameButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnClick()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.Quit(0);
     }
 }
