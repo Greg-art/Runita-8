@@ -7,7 +7,7 @@ public class LoadLevelButton : MonoBehaviour
 {
     [SerializeField] private string _sceneToLoad = default;
 
-    void OnClick()
+    public void OnClick()
     {
         SceneManager.LoadScene(_sceneToLoad);
     }
