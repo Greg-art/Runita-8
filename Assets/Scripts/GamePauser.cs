@@ -19,7 +19,7 @@ public class GamePauser : MonoBehaviour
         }
     }
 
-    public void ChangeGamePauseStatus(bool isPaused)
+    public void PauseGame(bool isPaused)
     {
         _gameIsPaused = isPaused;
         if (_gameIsPaused)
@@ -32,7 +32,7 @@ public class GamePauser : MonoBehaviour
         }
     }
 
-    public bool GetGamePauseStatus()
+    public bool GetGameIsPaused()
     {
         return _gameIsPaused;
     }

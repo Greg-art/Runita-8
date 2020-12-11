@@ -25,11 +25,11 @@ namespace UnityStandardAssets._2D
                 _isJumping = Input.GetMouseButtonDown(0);
 
                 //TODO tirar a lógica de respawnar daqui
-                if (Time.timeScale < 0.1)
+                if (GamePauser.Instance.GetGameIsPaused())
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
-                        Time.timeScale = 1;
+                        GamePauser.Instance.PauseGame(false);
                         Scene currentScene = SceneManager.GetActiveScene();
                         SceneManager.LoadScene(currentScene.name);
                     }
