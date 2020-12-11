@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class CollectibleScoreItem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private int _scoreGiven = 1;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.GetComponent<IHaveScore>() != null)
+        {
+            other.GetComponent<IHaveScore>().HandleScore(_scoreGiven);
+            Destroy(gameObject);
+        }
     }
 }
