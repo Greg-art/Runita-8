@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Score : MonoBehaviour
+public class PlayerScore : MonoBehaviour, IHaveScore
 {
     //TODO refatorar isso aqui inteiro para separar responsabilidades
     [SerializeField] private TextMeshProUGUI _scoreDisplay;
@@ -22,7 +22,12 @@ public class Score : MonoBehaviour
         InvokeRepeating("IncreaseScore", 0.3f, 0.3f);
     }
 
-    void IncreaseScore()
+    public void IncreaseScore()
+    {
+        HandleScore(1);
+    }
+
+    public void HandleScore(int scoreAmount)
     {
         _currentScore++;
 
