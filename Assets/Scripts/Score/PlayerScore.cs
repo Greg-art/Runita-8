@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Score : MonoBehaviour
+public class PlayerScore : MonoBehaviour, IHaveScore
 {
     //TODO refatorar isso aqui inteiro para separar responsabilidades
-    [SerializeField] private TextMeshProUGUI _scoreDisplay;
-    [SerializeField] private TextMeshProUGUI _highScoreDisplay;
+    [SerializeField] private TextMeshProUGUI _scoreDisplay = default;
+    [SerializeField] private TextMeshProUGUI _highScoreDisplay = default;
 
     private int _currentScore;
     private int _highScore;
@@ -18,11 +18,9 @@ public class Score : MonoBehaviour
         _highScore = PlayerPrefs.GetInt("highScore", 0);
 
         _highScoreDisplay.SetText($"Recorde: {_highScore}");
-
-        InvokeRepeating("IncreaseScore", 0.3f, 0.3f);
     }
 
-    void IncreaseScore()
+    public void HandleScore(int scoreAmount)
     {
         _currentScore++;
 
