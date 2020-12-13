@@ -17,7 +17,7 @@ public class SpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Spawn()
     {
-        Instantiate (vector[Random.Range(0,vector.Length)], transform.position, Quaternion.Euler(0, 10, 0));
+        Instantiate (vector[Random.Range(0,vector.Length)], transform.position, Quaternion.Euler(-12, 10, 0));
         Invoke("Spawn", Random.Range(spawnMin,spawnMax));
     }
 }
