@@ -11,7 +11,9 @@ public class FlyScript : MonoBehaviour
     private GameObject player = default;
     [SerializeField]
     private float maxDistance = 21f;
-    [SerializeField] private Canvas _gameOverCanvas;
+    [SerializeField] 
+    private Canvas _gameOverCanvas;
+    public ParticleSystem expl;
 
     void Start()
     {
@@ -38,8 +40,8 @@ public class FlyScript : MonoBehaviour
             //quebra as plataformas também. Criar efeito de dretruindo
             if (other.gameObject)
                 Destroy(other.gameObject);
-            else
-                Destroy(other.gameObject);
+                //Invoke("expl", 1);
+
         }
         else
         {
