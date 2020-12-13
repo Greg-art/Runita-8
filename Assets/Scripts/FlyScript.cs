@@ -11,7 +11,9 @@ public class FlyScript : MonoBehaviour
     private GameObject player = default;
     [SerializeField]
     private float maxDistance = 21f;
-    [SerializeField] private Canvas _gameOverCanvas;
+    [SerializeField] 
+    private Canvas _gameOverCanvas;
+    public ParticleSystem expl;
 
     void Start()
     {
@@ -22,7 +24,6 @@ public class FlyScript : MonoBehaviour
     void Update(){
         float distance =  player.transform.position.x - transform.position.x;
         float veloPlayer = player.GetComponent<Rigidbody2D>().velocity.x;
-        Debug.Log(distance + " e " + veloPlayer);
  
         if(veloPlayer > 0 && distance >= maxDistance){
             dragon.velocity = new Vector2(veloPlayer,0);
@@ -35,10 +36,11 @@ public class FlyScript : MonoBehaviour
     {
         if (other.gameObject.tag != "Player")
         {
-            // if (other.gameObject.transform.parent)
-            //     Destroy(other.gameObject.transform.parent.gameObject);
-            // else
-            //     Destroy(other.gameObject);
+            //quebra as plataformas também. Criar efeito de dretruindo
+            if (other.gameObject)
+                Destroy(other.gameObject);
+                //Instantiate(expl, other.gameObject.transform.position, other.gameObject.transform.rotation);
+
         }
         else
         {
