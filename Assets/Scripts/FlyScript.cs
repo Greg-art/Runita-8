@@ -24,7 +24,6 @@ public class FlyScript : MonoBehaviour
     void Update(){
         float distance =  player.transform.position.x - transform.position.x;
         float veloPlayer = player.GetComponent<Rigidbody2D>().velocity.x;
-        Debug.Log(distance + " e " + veloPlayer);
  
         if(veloPlayer > 0 && distance >= maxDistance){
             dragon.velocity = new Vector2(veloPlayer,0);
@@ -40,7 +39,7 @@ public class FlyScript : MonoBehaviour
             //quebra as plataformas também. Criar efeito de dretruindo
             if (other.gameObject)
                 Destroy(other.gameObject);
-                //Invoke("expl", 1);
+                //Instantiate(expl, other.gameObject.transform.position, other.gameObject.transform.rotation);
 
         }
         else

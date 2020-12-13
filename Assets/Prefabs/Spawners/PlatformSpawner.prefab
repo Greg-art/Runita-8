@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8216513037970050441}
   - component: {fileID: 8216513037970050440}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: PlatformSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -43,9 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57447c1956acece4e8de86d423adf11f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vector:
+  plataformas:
   - {fileID: 7275054366717507578, guid: 432cdc16f62c728429ceb274f90a7f2b, type: 3}
   - {fileID: 4966021272394815363, guid: 3300fd2c3b9b4e342b5c5811e7bb5cb3, type: 3}
   - {fileID: 3114275967257665721, guid: c07a7265f747c2c4aa582094bd18fc2a, type: 3}
+  obstaculos:
+  - {fileID: 7275054366717507578, guid: 4e8e1c2781931d9409eb95456e9d977f, type: 3}
+  - {fileID: 4966021272394815363, guid: 537a1b4097547954794c83a2c0311e70, type: 3}
+  - {fileID: 3114275967257665721, guid: 60476b5124cf5ec49b403e440bae2c01, type: 3}
   spawnMin: 1
   spawnMax: 2
+  chanceObstaculo: 20
