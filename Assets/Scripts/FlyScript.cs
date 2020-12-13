@@ -4,28 +4,46 @@ using UnityEngine;
 
 public class FlyScript : MonoBehaviour
 {
-    Rigidbody bala;
+    Rigidbody2D dragon;
     [SerializeField]
-    private float velocity = 9.0f;
+    private float velocity = 8.0f;
     [SerializeField]
     private GameObject player = default;
     [SerializeField]
-    private float distance = 17f;
-    
+    private float maxDistance = 21f;
+    [SerializeField] private Canvas _gameOverCanvas;
 
     void Start()
     {
-        bala = GetComponent<Rigidbody>();
+        dragon = GetComponent<Rigidbody2D>();
+        _gameOverCanvas.gameObject.SetActive(false);
     
     }
     void Update(){
         float distance =  player.transform.position.x - transform.position.x;
         float veloPlayer = player.GetComponent<Rigidbody2D>().velocity.x;
-
-        if(veloPlayer > 0 && distance > 17){
-            bala.velocity = new Vector3(veloPlayer,0,0);
+        Debug.Log(distance + " e " + veloPlayer);
+ 
+        if(veloPlayer > 0 && distance >= maxDistance){
+            dragon.velocity = new Vector2(veloPlayer,0);
         }else{
-            bala.velocity = new Vector3(velocity,0,0);            
+            dragon.velocity = new Vector2(velocity,0);            
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            // if (other.gameObject.transform.parent)
+            //     Destroy(other.gameObject.transform.parent.gameObject);
+            // else
+            //     Destroy(other.gameObject);
+        }
+        else
+        {
+            GamePauser.Instance.PauseGame(true);
+            _gameOverCanvas.gameObject.SetActive(true);
         }
     }
 

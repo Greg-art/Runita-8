@@ -3175,9 +3175,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 975785638}
     - target: {fileID: 5684986571115632724, guid: c6837298fca020a47b15e6d3ffec4ae7, type: 3}
-      propertyPath: velocity
-      value: 8
-      objectReference: {fileID: 0}
+      propertyPath: _gameOverCanvas
+      value: 
+      objectReference: {fileID: 976917870}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6837298fca020a47b15e6d3ffec4ae7, type: 3}
 --- !u!1 &1977938792 stripped
@@ -3315,7 +3315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
       propertyPath: m_LocalPosition.y
