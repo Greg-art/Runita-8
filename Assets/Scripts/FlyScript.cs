@@ -35,10 +35,11 @@ public class FlyScript : MonoBehaviour
     {
         if (other.gameObject.tag != "Player")
         {
-            // if (other.gameObject.transform.parent)
-            //     Destroy(other.gameObject.transform.parent.gameObject);
-            // else
-            //     Destroy(other.gameObject);
+            //quebra as plataformas também. Criar efeito de dretruindo
+            if (other.gameObject)
+                Destroy(other.gameObject);
+            else
+                Destroy(other.gameObject);
         }
         else
         {
