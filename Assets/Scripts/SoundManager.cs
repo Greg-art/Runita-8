@@ -12,7 +12,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip _song2;
     [SerializeField] private AudioSource _audioSource;
 
-    private SoundManager Instance;
+    public static SoundManager Instance;
 
     private void Awake()
     {
@@ -42,7 +42,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayPickupClip()
     {
-        _audioSource.PlayOneShot(_deathClip);
+        _audioSource.PlayOneShot(_pickupClip);
     }
 
     public void PlayPortalClip()

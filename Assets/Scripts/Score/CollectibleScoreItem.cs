@@ -14,6 +14,7 @@ public class CollectibleScoreItem : MonoBehaviour
             other.GetComponent<IHaveScore>().HandleScore(_scoreGiven);
             Destroy(gameObject);
             Instantiate(Exp, transform.position, transform.rotation);
+            SoundManager.Instance.PlayPickupClip();
         }
     }
 }
