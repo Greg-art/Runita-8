@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CollectibleScoreItem : MonoBehaviour
 {
     [SerializeField] private int _scoreGiven = 1;
     [SerializeField] private GameObject Exp = default;
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,6 +17,7 @@ public class CollectibleScoreItem : MonoBehaviour
             Destroy(gameObject);
             Instantiate(Exp, transform.position, transform.rotation);
             SoundManager.Instance.PlayPickupClip();
+
         }
     }
 }

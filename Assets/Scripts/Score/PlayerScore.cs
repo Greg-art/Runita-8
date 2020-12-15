@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerScore : MonoBehaviour, IHaveScore
 {
@@ -11,18 +12,31 @@ public class PlayerScore : MonoBehaviour, IHaveScore
 
     private int _currentScore;
     private int _highScore;
-
+    [SerializeField] private Image RoxoPulse = default;
+    [SerializeField] private Image IconePulse = default;
+    
+    private void Start(){
+        RoxoPulse.CrossFadeAlpha(0, 0, true);
+        IconePulse.CrossFadeAlpha(0, 0, true);
+    }
     void Awake()
     {
         _currentScore = 0;
         _highScore = PlayerPrefs.GetInt("highScore", 0);
 
         _highScoreDisplay.SetText($"Recorde: {_highScore}");
+
     }
 
     public void HandleScore(int scoreAmount)
     {
         _currentScore++;
+        RoxoPulse.CrossFadeAlpha(1, 0, true);
+        RoxoPulse.CrossFadeAlpha(0, 0.7f, true);
+        IconePulse.CrossFadeAlpha(1, 0, true);
+        IconePulse.CrossFadeAlpha(0, 2.0f, true);
+        
+        
 
         if (_currentScore > _highScore)
         {
@@ -30,7 +44,7 @@ public class PlayerScore : MonoBehaviour, IHaveScore
             PlayerPrefs.SetInt("highScore", _highScore);
         }
 
-        _scoreDisplay.SetText($"Pontuação: {_currentScore}");
+        _scoreDisplay.SetText($"{_currentScore}");
         _highScoreDisplay.SetText($"Recorde: {_highScore}");
     }
 }
