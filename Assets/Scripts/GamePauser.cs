@@ -24,7 +24,7 @@ public class GamePauser : MonoBehaviour
         _gameIsPaused = isPaused;
         if (_gameIsPaused)
         {
-            Time.timeScale = 0;
+            Time.timeScale = 0.08f;
         }
         else
         {
