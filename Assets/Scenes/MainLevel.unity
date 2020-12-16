@@ -539,7 +539,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100008, guid: 85eebe6a6ae1fa643a8befbbc1f67589, type: 3}
       propertyPath: m_Name
-      value: footmanPolyart 1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 85eebe6a6ae1fa643a8befbbc1f67589, type: 3}
       propertyPath: m_TagString
