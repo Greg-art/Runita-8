@@ -31,7 +31,15 @@ namespace UnityStandardAssets._2D
                     {
                         GamePauser.Instance.PauseGame(false);
                         Scene currentScene = SceneManager.GetActiveScene();
-                        SceneManager.LoadScene(currentScene.name);
+
+                        if (currentScene.name == "Extra")
+                        {
+                            SceneManager.LoadScene("MainLevel");
+                        }
+                        else
+                        {
+                            SceneManager.LoadScene(currentScene.name);
+                        }
                     }
                 }
             }

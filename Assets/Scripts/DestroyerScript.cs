@@ -24,8 +24,8 @@ public class DestroyerScript : MonoBehaviour
         }
         else
         {
-            GamePauser.Instance.PauseGame(true);
             _gameOverCanvas.gameObject.SetActive(true);
+            GamePauser.Instance.PauseGame(true);
         }
     }
 }
