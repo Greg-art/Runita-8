@@ -32,12 +32,12 @@ public class SoundManager : MonoBehaviour
 
     public void PlayDeathClip()
     {
-        _audioSource.PlayOneShot(_deathClip);
+        _audioSource.PlayOneShot(_deathClip, 5.0f);
     }
 
     public void PlayDragonClip()
     {
-        _audioSource.PlayOneShot(_deathClip);
+        _audioSource.PlayOneShot(_dragonClip, 0f);
     }
 
     public void PlayPickupClip()
@@ -47,7 +47,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayPortalClip()
     {
-        _audioSource.PlayOneShot(_deathClip);
+        _audioSource.PlayOneShot(_portalClip);
     }
 
     public void PlaySong(int songNumber)

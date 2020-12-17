@@ -46,6 +46,8 @@ public class FlyScript : MonoBehaviour
         {
             GamePauser.Instance.PauseGame(true);
             _gameOverCanvas.gameObject.SetActive(true);
+            SoundManager.Instance.PlayDragonClip();
+            SoundManager.Instance.PlayDeathClip();
         }
     }
 
