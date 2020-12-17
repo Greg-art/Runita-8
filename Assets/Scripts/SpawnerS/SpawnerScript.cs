@@ -16,37 +16,41 @@ public class SpawnerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Spawn();   
+        Spawn();
     }
 
     // Update is called once per frame
     void Spawn()
     {
 
-        if(transform.position.x > _oldPosition + 3){ //pra não colocar plataformas mto emcima das outras
-            int escolha = Random.Range(0,100);
-            if (escolha < chanceExtra){
-                if (extra.Length != 0){
-                    Debug.Log("tem obstaculo");
-                    Instantiate (extra[Random.Range(0,extra.Length )], transform.position, Quaternion.Euler(-12, 10, 0));
+        if (transform.position.x > _oldPosition + 3)
+        { //pra não colocar plataformas mto emcima das outras
+            int escolha = Random.Range(0, 100);
+            if (escolha < chanceExtra)
+            {
+                if (extra.Length != 0)
+                {
+                    Instantiate(extra[Random.Range(0, extra.Length)], transform.position, Quaternion.Euler(-12, 10, 0));
                 }
-            }else if (escolha < chanceObstaculo){
-                if (obstaculos.Length != 0){
-                    Debug.Log("tem obstaculo");
-                    Instantiate (obstaculos[Random.Range(0,obstaculos.Length )], transform.position, Quaternion.Euler(-12, 10, 0));
-                }            
             }
-            else{
-                Debug.Log("plataformas");
-                if (plataformas.Length != 0){
-                    Debug.Log("tem plataformas");
-                    Instantiate (plataformas[Random.Range(0,plataformas.Length )], transform.position, Quaternion.Euler(-12, 10, 0));                    
+            else if (escolha < chanceObstaculo)
+            {
+                if (obstaculos.Length != 0)
+                {
+                    Instantiate(obstaculos[Random.Range(0, obstaculos.Length)], transform.position, Quaternion.Euler(-12, 10, 0));
                 }
-            
-            }            
+            }
+            else
+            {
+                if (plataformas.Length != 0)
+                {
+                    Instantiate(plataformas[Random.Range(0, plataformas.Length)], transform.position, Quaternion.Euler(-12, 10, 0));
+                }
+
+            }
         }
         _oldPosition = transform.position.x;
 
-        Invoke("Spawn", Random.Range(spawnMin,spawnMax));
+        Invoke("Spawn", Random.Range(spawnMin, spawnMax));
     }
 }
