@@ -282,7 +282,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Fundo -\nPersonagem -\nDrag\xE3o -"
+  m_text: "Fundo - @ansimuz\nPersonagem - alexkim\nDrag\xE3o - BOT FACTORY STORE\nPlataformas
+    - FullyBeta"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
   m_sharedMaterial: {fileID: 1059818964720791037, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
@@ -852,7 +853,7 @@ GameObject:
   - component: {fileID: 877280195}
   - component: {fileID: 877280194}
   m_Layer: 5
-  m_Name: TextDevs
+  m_Name: TextAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +899,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Desenvolvedores
+  m_text: Sons
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
   m_sharedMaterial: {fileID: 1059818964720791037, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
@@ -925,7 +926,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.45
+  m_fontSize: 55.7
   m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -987,7 +988,7 @@ GameObject:
   - component: {fileID: 886860092}
   - component: {fileID: 886860091}
   m_Layer: 5
-  m_Name: TextDevCredits
+  m_Name: TextAudioCredits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,7 +1033,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bernardo Pires Mesko\nGr\xE9gori Sabel"
+  m_text: "Drag\xE3o - Michael Klier\nPersonagem - Michael Baradari\nItem - CosmicD\nM\xFAsica
+    - Matthew Pablo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
   m_sharedMaterial: {fileID: 1059818964720791037, guid: 052a9f33566a9914f95059fdf74e5e0e, type: 2}
