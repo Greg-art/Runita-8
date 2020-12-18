@@ -34,10 +34,12 @@ namespace UnityStandardAssets._2D
 
                         if (currentScene.name == "Extra")
                         {
+                            PlayerPrefs.SetInt("points", 0);
                             SceneManager.LoadScene("MainLevel");
                         }
                         else
                         {
+                            PlayerPrefs.SetInt("points", 0);
                             SceneManager.LoadScene(currentScene.name);
                         }
                     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyerScript : MonoBehaviour
 {
@@ -26,6 +27,10 @@ public class DestroyerScript : MonoBehaviour
         {
             _gameOverCanvas.gameObject.SetActive(true);
             GamePauser.Instance.PauseGame(true);
+
+            if(SceneManager.GetActiveScene().name != "Extra")
+                other.GetComponent<PlayerScore>()._currentScore = 0;
+
         }
     }
 }

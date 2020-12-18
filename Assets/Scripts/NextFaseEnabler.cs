@@ -8,11 +8,16 @@ public class NextFaseEnabler : MonoBehaviour
 {
     [SerializeField] private string _sceneToLoad;
 
+    public void Start(){
+
+    } 
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<PlatformerCharacter2D>() != null)
         {
             SceneManager.LoadScene(_sceneToLoad);
+            
         }
     }
 }

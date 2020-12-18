@@ -10,7 +10,7 @@ public class PlayerScore : MonoBehaviour, IHaveScore
     [SerializeField] private TextMeshProUGUI _scoreDisplay = default;
     [SerializeField] private TextMeshProUGUI _highScoreDisplay = default;
 
-    private int _currentScore;
+    public int _currentScore;
     private int _highScore;
     [SerializeField] private Image RoxoPulse = default;
     [SerializeField] private Image IconePulse = default;
@@ -23,6 +23,8 @@ public class PlayerScore : MonoBehaviour, IHaveScore
     {
         _currentScore = 0;
         _highScore = PlayerPrefs.GetInt("highScore", 0);
+        _currentScore = PlayerPrefs.GetInt("points", 0);
+        _scoreDisplay.SetText($"{_currentScore}");
 
         _highScoreDisplay.SetText($"Recorde: {_highScore}");
 
@@ -30,7 +32,10 @@ public class PlayerScore : MonoBehaviour, IHaveScore
 
     public void HandleScore(int scoreAmount)
     {
+        _currentScore = PlayerPrefs.GetInt("points");
         _currentScore++;
+        PlayerPrefs.SetInt("points", _currentScore);
+
         RoxoPulse.CrossFadeAlpha(1, 0, true);
         RoxoPulse.CrossFadeAlpha(0, 0.7f, true);
         IconePulse.CrossFadeAlpha(1, 0, true);
