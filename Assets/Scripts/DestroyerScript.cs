@@ -27,8 +27,10 @@ public class DestroyerScript : MonoBehaviour
         {
             _gameOverCanvas.gameObject.SetActive(true);
             GamePauser.Instance.PauseGame(true);
+            SoundManager.Instance.PlayDeathClip();
+            SoundManager.Instance.PlaySong(1, 0.7f);
 
-            if(SceneManager.GetActiveScene().name != "Extra")
+            if (SceneManager.GetActiveScene().name != "Extra")
                 other.GetComponent<PlayerScore>()._currentScore = 0;
 
         }

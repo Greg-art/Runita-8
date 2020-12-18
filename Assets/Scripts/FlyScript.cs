@@ -11,7 +11,7 @@ public class FlyScript : MonoBehaviour
     private GameObject player = default;
     [SerializeField]
     private float maxDistance = 21f;
-    [SerializeField] 
+    [SerializeField]
     private Canvas _gameOverCanvas;
     public ParticleSystem expl;
 
@@ -19,16 +19,20 @@ public class FlyScript : MonoBehaviour
     {
         dragon = GetComponent<Rigidbody2D>();
         _gameOverCanvas.gameObject.SetActive(false);
-    
+
     }
-    void Update(){
-        float distance =  player.transform.position.x - transform.position.x;
+    void Update()
+    {
+        float distance = player.transform.position.x - transform.position.x;
         float veloPlayer = player.GetComponent<Rigidbody2D>().velocity.x;
- 
-        if(veloPlayer > 0 && distance >= maxDistance){
-            dragon.velocity = new Vector2(veloPlayer,0);
-        }else{
-            dragon.velocity = new Vector2(velocity,0);            
+
+        if (veloPlayer > 0 && distance >= maxDistance)
+        {
+            dragon.velocity = new Vector2(veloPlayer, 0);
+        }
+        else
+        {
+            dragon.velocity = new Vector2(velocity, 0);
         }
     }
 
@@ -39,14 +43,15 @@ public class FlyScript : MonoBehaviour
             //quebra as plataformas também. Criar efeito de dretruindo
             if (other.gameObject)
                 Destroy(other.gameObject);
-                //Instantiate(expl, other.gameObject.transform.position, other.gameObject.transform.rotation);
+            //Instantiate(expl, other.gameObject.transform.position, other.gameObject.transform.rotation);
 
         }
         else
         {
             GamePauser.Instance.PauseGame(true);
             _gameOverCanvas.gameObject.SetActive(true);
-            SoundManager.Instance.PlayDragonClip();
+            SoundManager.Instance.PlaySong(1, 0.7f);
+            SoundManager.Instance.PlayDragonClip();//efeitos sonoros são parecidos então parece que roda 2 vezes
             SoundManager.Instance.PlayDeathClip();
         }
     }

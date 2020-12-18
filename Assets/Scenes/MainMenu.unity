@@ -238,7 +238,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.28
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -336,8 +336,8 @@ MonoBehaviour:
   _deathClip: {fileID: 8300000, guid: ba956bc2255939840a241079e49db11e, type: 3}
   _pickupClip: {fileID: 8300000, guid: cd6a7cdaa5fa1a240b0dc1ae002f3fcd, type: 3}
   _dragonClip: {fileID: 8300000, guid: b32acb30311f5bf4fa8b37c0fa498d4d, type: 3}
-  _song1: {fileID: 0}
-  _song2: {fileID: 0}
+  _song1: {fileID: 8300000, guid: fe116b4c07106114d9c0b718d0a54719, type: 3}
+  _song2: {fileID: 8300000, guid: 44e6ec08ece5e40459cea351b70738a4, type: 3}
   _audioSource: {fileID: 202726317}
 --- !u!4 &202726319
 Transform:

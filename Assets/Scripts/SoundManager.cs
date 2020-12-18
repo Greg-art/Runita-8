@@ -24,6 +24,7 @@ public class SoundManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            SoundManager.Instance.PlaySong(1, 1f);
         }
 
         _audioSource = GetComponent<AudioSource>();
@@ -50,12 +51,13 @@ public class SoundManager : MonoBehaviour
         _audioSource.PlayOneShot(_portalClip);
     }
 
-    public void PlaySong(int songNumber)
+    public void PlaySong(int songNumber, float pitchModifier)
     {
         if (songNumber <= 1)
         {
             _audioSource.Stop();
             _audioSource.clip = _song1;
+            _audioSource.pitch = pitchModifier;
             _audioSource.Play();
         }
         else

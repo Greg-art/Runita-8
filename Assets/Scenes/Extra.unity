@@ -7631,7 +7631,7 @@ MonoBehaviour:
   _deathClip: {fileID: 8300000, guid: ba956bc2255939840a241079e49db11e, type: 3}
   _pickupClip: {fileID: 8300000, guid: cd6a7cdaa5fa1a240b0dc1ae002f3fcd, type: 3}
   _dragonClip: {fileID: 8300000, guid: b32acb30311f5bf4fa8b37c0fa498d4d, type: 3}
-  _song1: {fileID: 0}
+  _song1: {fileID: 8300000, guid: fe116b4c07106114d9c0b718d0a54719, type: 3}
   _song2: {fileID: 0}
   _audioSource: {fileID: 1946727213}
 --- !u!4 &1946727215
