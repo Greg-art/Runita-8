@@ -18,7 +18,7 @@ public class DestroyerScript : MonoBehaviour
     {
         if (other.gameObject.tag != "Player")
         {
-            if (other.gameObject.transform.parent)
+            if (other.gameObject.transform.parent && other.gameObject.tag != "Roxinho")
                 Destroy(other.gameObject.transform.parent.gameObject);
             else
                 Destroy(other.gameObject);

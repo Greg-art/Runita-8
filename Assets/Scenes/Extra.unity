@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 101.97346
+      value: 86.70345
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &17820287 stripped
@@ -206,7 +210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -116.67281
+      value: -114.39
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -214,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 104.09757
+      value: 101.86
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -391,7 +395,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 96.83
+      value: 81.56
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -443,6 +447,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
+      value: Roxinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
       value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -571,7 +579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.24
+      value: 70.53872
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -579,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.403027
+      value: 10.624634
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalRotation.x
@@ -625,6 +633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &130427580
@@ -636,7 +648,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.9
+      value: 78.18
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -689,6 +701,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -755,6 +771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &145320455
@@ -766,7 +786,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 106.67841
+      value: 88.898415
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -774,7 +794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.403027
+      value: 10.841992
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalRotation.x
@@ -819,6 +839,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -990,6 +1014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &216094266 stripped
@@ -1077,7 +1105,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103.97355
+      value: 88.703545
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1130,6 +1158,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -1227,6 +1259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 488027072}
+  - {fileID: 2104775846}
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1342,6 +1375,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -1465,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 85eebe6a6ae1fa643a8befbbc1f67589, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 85eebe6a6ae1fa643a8befbbc1f67589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1575,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.840004
+      value: 76.63671
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1583,7 +1620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.062402
+      value: 4.193937
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2004,6 +2041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &487899712
@@ -2068,6 +2109,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -2203,7 +2248,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 41.27
+      value: 39.55
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2256,6 +2301,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -2326,6 +2375,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -2666,7 +2719,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &566032758
 PrefabInstance:
@@ -3101,7 +3154,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 95.14
+      value: 79.869995
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3154,6 +3207,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -3407,7 +3464,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807257391
 GameObject:
@@ -3691,7 +3748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.840004
+      value: 56.120003
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3744,7 +3801,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.17
+      value: 49.70999
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3752,7 +3809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.403027
+      value: 10.530624
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3798,6 +3855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1 &900622675
@@ -3811,7 +3872,7 @@ GameObject:
   - component: {fileID: 900622676}
   m_Layer: 0
   m_Name: Roxinhos
-  m_TagString: Untagged
+  m_TagString: Roxinho
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4124,7 +4185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -140.41649
+      value: -129.07
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4132,7 +4193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 125.45483
+      value: 115.24
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4257,7 +4318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 90.840004
+      value: 87.138725
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4265,7 +4326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.062402
+      value: 4.2840095
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4486,6 +4547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &1086409029
@@ -4550,6 +4615,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -4621,6 +4690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &1114077456 stripped
@@ -4637,7 +4710,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.07
+      value: 59.866707
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4645,7 +4718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.403027
+      value: 10.534561
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4691,6 +4764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1 &1143805028
@@ -4729,7 +4806,7 @@ Transform:
   - {fileID: 873295261}
   - {fileID: 1785797278}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1167505686
 PrefabInstance:
@@ -4869,7 +4946,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1683529421}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3599991119545133087, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: _sceneToLoad
@@ -4881,15 +4958,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.6
+      value: 44.141785
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.31
+      value: 2.2854042
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6310347
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4922,6 +4999,10 @@ PrefabInstance:
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
@@ -5135,7 +5216,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 90.2
+      value: 88.479996
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5188,6 +5269,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -5320,6 +5405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &1309891512
@@ -5385,6 +5474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &1311471157
@@ -5392,23 +5485,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1683529421}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3599991119545133087, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
+      propertyPath: _sceneToLoad
+      value: MainLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 4966021272394815363, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_Name
       value: NextFasePlatform
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 199.53
+      value: 186.2918
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.31
+      value: 2.2854042
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6310347
+      value: 0.43896538
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5442,6 +5539,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8584636395944688114, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7907d3d58378f1245a8ffea441b61785, type: 3}
 --- !u!1001 &1397801219
@@ -5453,7 +5554,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.1
+      value: 55.379997
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5506,6 +5607,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -5784,7 +5889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 111.81
+      value: 96.53999
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5899,7 +6004,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.69
+      value: 66.97
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5952,6 +6057,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -6150,6 +6259,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxSpeed: 0.9
+--- !u!1001 &1590226706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 310408859}
+    m_Modifications:
+    - target: {fileID: 3806986834117878226, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_Name
+      value: Destroyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607865994712300236, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7012416938880127181, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+      propertyPath: _gameOverCanvas
+      value: 
+      objectReference: {fileID: 195392219}
+    m_RemovedComponents:
+    - {fileID: 2107446010359926979, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+    - {fileID: 5607865994712300236, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
 --- !u!1001 &1591526136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6213,6 +6389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &1610759568 stripped
@@ -6233,7 +6413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.75457
+      value: -122.16
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6241,7 +6421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 111.36706
+      value: 108.73
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6299,7 +6479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.84
+      value: 66.38
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6307,7 +6487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.062402
+      value: 4.19
       objectReference: {fileID: 0}
     - target: {fileID: 8964654728764747323, guid: 69e0becc7628a434494f9e63124ae528, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6378,8 +6558,6 @@ Transform:
   - {fileID: 658740213}
   - {fileID: 900622676}
   - {fileID: 807257392}
-  - {fileID: 609889725}
-  - {fileID: 1997865504}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6401,7 +6579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.43766
+      value: -106.7
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6409,7 +6587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 96.690125
+      value: 94.95
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6634,7 +6812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.162544
+      value: -98.89
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6642,7 +6820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.246704
+      value: 88.1
       objectReference: {fileID: 0}
     - target: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6929,7 +7107,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 84.77
+      value: 83.049995
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6982,6 +7160,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -7048,6 +7230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!1001 &1860188650
@@ -7112,6 +7298,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -7273,6 +7463,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
+      value: Roxinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
       value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7646,7 +7840,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1972658753 stripped
 Transform:
@@ -7683,7 +7877,7 @@ Transform:
   - {fileID: 569636907}
   - {fileID: 195392216}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1975118541 stripped
 Transform:
@@ -7709,7 +7903,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 99.27
+      value: 83.99999
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7762,6 +7956,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -7843,6 +8041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &2064694758 stripped
@@ -7913,6 +8115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roxinho (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
 --- !u!4 &2089431949 stripped
@@ -7929,7 +8135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.34
+      value: 44.62
       objectReference: {fileID: 0}
     - target: {fileID: 4871063925171963076, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7982,6 +8188,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
@@ -8047,6 +8257,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8584636395944688114, guid: 07a52072ac1eb794285824fb4ec6a0ab, type: 3}
   m_PrefabInstance: {fileID: 1295491373}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2104775845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3806986834117878226, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+  m_PrefabInstance: {fileID: 1590226706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2104775846 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6038186617722465359, guid: d3f6b60df7bfd8640b516487cc5c7988, type: 3}
+  m_PrefabInstance: {fileID: 1590226706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2104775847
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104775845}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &2104775848
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104775845}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1001 &2116381591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8109,6 +8376,10 @@ PrefabInstance:
     - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
       propertyPath: m_Name
       value: Roxinho (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306357715723819137, guid: 94115295dbbff804180210848b9e3c76, type: 3}
+      propertyPath: m_TagString
+      value: Roxinho
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94115295dbbff804180210848b9e3c76, type: 3}
