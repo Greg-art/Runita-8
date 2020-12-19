@@ -2,4 +2,4 @@
 
 Jogo de investida eterna
 
-## Versão Atual: 1.0.0 - Tutorial Terminado
+## Versão Atual: 1.2.0 - Jogo finalizado
