@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerScript : MonoBehaviour
+public class SpawnerRoxScript : MonoBehaviour
 {
-    public GameObject[] vector;
+    public GameObject[] vetor;
     public float spawnMin;
     public float spawnMax;
 
@@ -17,7 +17,9 @@ public class SpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Spawn()
     {
-        Instantiate (vector[Random.Range(0,vector.Length)], transform.position, Quaternion.Euler(0, 10, 0));
+
+        Instantiate (vetor[Random.Range(0,vetor.Length -1)], transform.position, Quaternion.Euler(-12, 10, 0));
+
         Invoke("Spawn", Random.Range(spawnMin,spawnMax));
     }
 }

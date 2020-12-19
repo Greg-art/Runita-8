@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyerScript : MonoBehaviour
 {
@@ -13,34 +14,25 @@ public class DestroyerScript : MonoBehaviour
         _gameOverCanvas.gameObject.SetActive(false);
     }
 
-    void OnCollisionEnter(Collision other)
-    {
-
-    }
-
-    void OnCollisionEnter2D(Collision2D other)
-    {
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag != "Player")
         {
-            if (other.gameObject.transform.parent)
+            if (other.gameObject.transform.parent && other.gameObject.tag != "Roxinho")
                 Destroy(other.gameObject.transform.parent.gameObject);
             else
                 Destroy(other.gameObject);
         }
         else
         {
-            Time.timeScale = 0;
             _gameOverCanvas.gameObject.SetActive(true);
+            GamePauser.Instance.PauseGame(true);
+            SoundManager.Instance.PlayDeathClip();
+            SoundManager.Instance.PlaySong(1, 0.7f);
+
+            if (SceneManager.GetActiveScene().name != "Extra")
+                other.GetComponent<PlayerScore>()._currentScore = 0;
+
         }
     }
 }
